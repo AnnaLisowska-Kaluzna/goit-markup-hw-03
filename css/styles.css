@@ -18,6 +18,7 @@ body {
 .wrapper {
   width: 1600px;
   margin: 0 auto;
+  background-color: var(--color-white);
 }
 
 .container {
@@ -184,6 +185,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .banner-content {
   display: flex;
   width: 696px;
@@ -223,6 +225,8 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--background-btn-color);
   border-radius: 4px;
+  border: 0;
+  padding: 6px 22px 6px 22px;
 }
 
 .button:hover,
@@ -244,7 +248,7 @@ body {
 .section-assets {
   display: flex;
   width: 1600px;
-  background-color: var(--background-btn-color);
+  background-color: var(--color-white);
 }
 
 .assets {
@@ -282,7 +286,7 @@ body {
 .activities {
   display: flex;
   width: 1600px;
-  background-color: var(--background-btn-color);
+  background-color: var(--color-white);
 }
 
 .activities-title,
@@ -305,11 +309,6 @@ body {
   gap: 30px;
 }
 
-/* .container-team {
-  display: flex;
-  margin-left: 215px;
-} */
-
 .employee {
   font-style: normal;
   font-weight: 500;
@@ -329,10 +328,12 @@ body {
   color: var(--color-grey);
   padding-top: 10px;
 }
+
 .container-team {
   padding-bottom: 94px;
   background-color: var(--background-btn-color);
 }
+
 .container-team .next-images {
   display: flex;
   flex-direction: row;
@@ -347,7 +348,11 @@ body {
   flex-direction: column;
   width: 270px;
   height: 368px;
-  background-color: #f5f4fa;
+  background-color:var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14);
+box-shadow:  0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 .project-title {
@@ -360,6 +365,7 @@ body {
   padding-top: 20px;
   padding-left: 24px;
 }
+
 .project-text {
   font-style: normal;
   font-weight: 400;
@@ -374,13 +380,14 @@ body {
 .item {
   border-bottom: 1px solid #eee;
 }
-.grid-container {
+
+/* .grid-container {
   display: flex;
   box-sizing: border-box;
   width: 1600px;
   height: 1548px;
   background-color: var(--color-white);
-}
+} */
 .section-filters {
   display: flex;
   justify-content: center;
@@ -388,6 +395,7 @@ body {
   margin-left: 215px;
   margin-right: 215px;
 }
+
 .filters {
   display: flex;
   flex-direction: row;
