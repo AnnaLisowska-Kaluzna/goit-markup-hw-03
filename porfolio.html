@@ -7,39 +7,43 @@
     <title>Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="top-menu">
-      <h3>
-        <a class="logo" href="index.html"
-          ><span class="logo-part">Web</span>Studio</a
-        >
-      </h3>
-      <nav>
-        <ul class="menu">
-          <li><a class="link" href="./index.html">Agencja</a></li>
-          <li><a class="link" href="./porfolio.html">Portfolio</a></li>
-          <li><a class="link" href="./kontakt.html">Kontakt</a></li>
-        </ul>
-      </nav>
-      <ul class="top-contacts">
-        <li>
-          <a class="link-contact" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="link-contact" href="tel:+48111111111">+48 111 111 111</a>
-        </li>
-      </ul>
-    </header>
+    <div class="wrapper">
+<header class="header-background">
+        <div class="top-menu top-menu--container">
+          <h3>
+            <a class="logo" href="index.html"
+              ><span class="logo-part">Web</span>Studio</a
+            >
+          </h3>
+          <nav>
+            <ul class="menu">
+              <li><a class="link" href="./agencja.html">Agencja</a></li>
+              <li><a class="link" href="./porfolio.html">Portfolio</a></li>
+              <li><a class="link" href="./kontakt.html">Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="top-contacts">
+            <li>
+              <a class="link-contact" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link-contact" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
     <main>
-      <section>
+      <div class="grid-container">
+      <section class="section-filters">
         <ul class="filters">
           <li><button class="btn" type="button">Wszystkie</button></li>
           <li><button class="btn" type="button">Strony</button></li>
@@ -48,10 +52,10 @@
           <li><button class="btn" type="button">Marketing</button></li>
         </ul>
       </section>
-      <section>
-        <ul class="projects">
+      <section class="section-projects">
+        <ul class="grid-item">
           <li>
-            <figure>
+            <figure class="item">
               <img
                 src="./images/photo1.jpg"
                 alt="laptop"
@@ -65,7 +69,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="item">
               <img
                 src="./images/photo2.jpg"
                 alt="basketball players"
@@ -79,7 +83,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="item">
               <img
                 src="./images/photo3.jpg"
                 alt="the seafood restaurant logo"
@@ -93,7 +97,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="item">
               <img
                 src="images/photo4.jpg"
                 alt="headphones"
@@ -107,7 +111,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="item">
               <img
                 src="./images/photo5.jpg"
                 alt="boxes"
@@ -121,7 +125,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="item">
               <img
                 src="./images/photo6.jpg"
                 alt="computer monitor"
@@ -135,7 +139,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="item">
               <img
                 src="./images/photo7.jpg"
                 alt="magazine"
@@ -149,7 +153,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="item">
               <img
                 src="./images/photo8.jpg"
                 alt="label"
@@ -163,7 +167,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="item">
               <img
                 src="./images/photo9.jpg"
                 alt="work on laptop"
@@ -177,25 +181,31 @@
             </figure>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="bottom-menu">
-      <a class="logo-bottom" href="index.html"
-        ><span class="logo-part">Web</span>Studio</a
-      >
-      <address>
-        <p class="location">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <ul class="bottom-contacts">
-          <li>
-            <a class="link-location" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="link-location" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </address>
-    </footer>
+        <div class="bottom-container">
+        <a class="logo-bottom" href="index.html"
+          ><span class="logo-part">Web</span>Studio</a
+        >
+        <address>
+          <p class="location">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <ul class="bottom-contacts">
+            <li>
+              <a class="link-location" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="link-location" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </address>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
